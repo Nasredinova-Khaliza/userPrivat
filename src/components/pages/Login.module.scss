@@ -1,0 +1,36 @@
+.Login {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.card {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 40px;
+		width: 260px;
+		height: 360px;
+		background-color: white;
+		border-radius: 20px;
+		.login {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			input {
+				width: 220px;
+				height: 30px;
+			}
+
+			button {
+				margin-top: 20px;
+				width: 160px;
+				height: 26px;
+				background-color: white;
+				border-radius: 20px;
+			}
+		}
+	}
+}

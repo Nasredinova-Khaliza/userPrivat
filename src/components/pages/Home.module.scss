@@ -1,0 +1,20 @@
+.text {
+	margin-top: 180px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.LoginButton {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	button {
+		width: 200px;
+		height: 30px;
+		background-color: white;
+		border: none;
+		border-radius: 20px;
+	}
+}
